@@ -1,3 +1,5 @@
+# The processor has seven 8-bit registers (A, B, C, D, E, H, and L), where A is the primary 8-bit accumulator and the other six registers can be used as either individual 8-# bit registers or as three 16-bit register pairs (BC, DE, and HL) depending on the particular instruction. Some instructions also enable the HL register pair to be used as a # (limited) 16-bit accumulator, and a pseudo-register, M, can be used almost anywhere that any other register can be used, referring to the memory address pointed to by the # HL pair. It also has a 16-bit stack pointer to memory (replacing the 8008's internal stack), and a 16-bit program counter. 
+
 # A simple disassembler for the 8080 CPU.
 import binascii
 import sys
