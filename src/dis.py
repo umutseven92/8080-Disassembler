@@ -7,6 +7,7 @@ import dis_helper as dh
 source = str(sys.argv[1])
 filename = source.split('.')[0] + "_dis.txt"
 
+#Read the file
 with open(source, "rb") as f:
 	content = f.read()
 
