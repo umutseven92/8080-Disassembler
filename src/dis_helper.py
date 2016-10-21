@@ -1,3 +1,4 @@
+# Helper methods go here
 
 # Get the two chars next to instruction opcodes, which are memory registers
 def get_dest(offset, hexed, addt, x):

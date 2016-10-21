@@ -84,7 +84,7 @@ for x in range(0, bit_size):
 		dest = "B"
 
 	elif byte == "04":
-		instr = "INR"
+		instr = INR
 		dest = "B"
 
 	elif byte == "05":
@@ -117,7 +117,7 @@ for x in range(0, bit_size):
 		dest = "B"
 
 	elif byte == "0c":
-		instr = "INR"
+		instr = INR
 		dest = "C"
 
 	elif byte == "0d":
@@ -153,7 +153,7 @@ for x in range(0, bit_size):
 		dest = "D"
 
 	elif byte == "14":
-		instr = "INR"
+		instr = INR
 		dest = "D"
 
 	elif byte == "15":
@@ -186,7 +186,7 @@ for x in range(0, bit_size):
 		dest = "D"
 
 	elif byte == "1c":
-		instr = "INR"
+		instr = INR
 		dest = "E"
 
 	elif byte == "1d":
@@ -225,7 +225,7 @@ for x in range(0, bit_size):
 		dest = "H"
 
 	elif byte == "24":
-		instr = "INR"
+		instr = INR
 		dest = "H"
 
 	elif byte == "25":
@@ -261,7 +261,7 @@ for x in range(0, bit_size):
 		dest = "H"
 
 	elif byte == "2c":
-		instr = "INR"
+		instr = INR
 		dest = "L"
 
 	elif byte == "2d":
@@ -300,7 +300,7 @@ for x in range(0, bit_size):
 		dest = "SP"
 
 	elif byte == "34":
-		instr = "INR"
+		instr = INR
 		dest = "M"
 
 	elif byte == "35":
@@ -336,7 +336,7 @@ for x in range(0, bit_size):
 		dest = "SP"
 
 	elif byte == "3c":
-		instr = "INR"
+		instr = INR
 		dest = "A"
 
 	elif byte == "3d":
