@@ -46,8 +46,10 @@ dis = ""
 opcode = 0
 cont = 0
 
-#The contents of the designated register or memory) are incremented by 1 and the result is stored in the same place. If the operand is a memory location, its location is specified by the contents of the HL registers.
+# The contents of the designated register or memory) are incremented by 1 and the result is stored in the same place. If the operand is a memory location, its location is specified by the contents of the HL registers.
 INR = "INR"
+# Move immediate date to a register or memory location
+MVI = "MVI"
 
 for x in range(0, bit_size):
 	
