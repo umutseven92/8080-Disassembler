@@ -63,7 +63,7 @@ for x in range(0, bit_size):
 		continue
 	
 	# Get the instruction opcode as 2 chars
-	byte = hexed[x*2] + hexed[(x*2)+1]	
+	byte = hexed[x * 2] + hexed[(x * 2)+1]	
 	instr = ""
 	
 	# Memory register 
