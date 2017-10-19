@@ -58,8 +58,8 @@ LXI = "LXI"
 for x in range(0, bit_size):
 	
 	if cont > 0:
-		cont-=1
-		opcode+=1
+		cont -= 1
+		opcode += 1
 		continue
 	
 	# Get the instruction opcode as 2 chars
