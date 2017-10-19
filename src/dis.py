@@ -30,6 +30,7 @@ import binascii
 import sys
 import dis_helper as dh
 
+#GLOBAL
 # Get the file to disassemble, then create the output file name ("dis_filename")
 source = str(sys.argv[1])
 filename = source.split('.')[0] + "_dis.txt"
@@ -42,6 +43,7 @@ hexed = binascii.hexlify(content).decode()
 bit_size = int(len(hexed) / 2)
 
 dis = ""
+
 
 opcode = 0
 cont = 0
