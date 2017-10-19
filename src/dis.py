@@ -30,6 +30,7 @@ import binascii
 import sys
 import dis_helper as dh
 
+#GLOBAL
 # Get the file to disassemble, then create the output file name ("dis_filename")
 source = str(sys.argv[1])
 filename = source.split('.')[0] + "_dis.txt"
@@ -42,6 +43,7 @@ hexed = binascii.hexlify(content).decode()
 bit_size = int(len(hexed) / 2)
 
 dis = ""
+
 
 opcode = 0
 cont = 0
@@ -58,12 +60,12 @@ LXI = "LXI"
 for x in range(0, bit_size):
 	
 	if cont > 0:
-		cont-=1
-		opcode+=1
+		cont -= 1
+		opcode += 1
 		continue
 	
 	# Get the instruction opcode as 2 chars
-	byte = hexed[x*2] + hexed[(x*2)+1]	
+	byte = hexed[x * 2] + hexed[(x * 2)+1]	
 	instr = ""
 	
 	# Memory register 
